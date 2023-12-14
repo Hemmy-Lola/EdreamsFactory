@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Oneday</title>
+</head>
+
+<body>
+    <header>
+        <h3>1day</h3>
+        <nav id="nav">
+            <a href="#about">About us</a>
+            <a href="#product">Product</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div id="menu-burger">
+            <nav id="open-burger">
+                <a class="link" href="#about">About us</a>
+                <a class="link" href="#product">Product</a>
+                <a class="link" href="#blog">Blog</a>
+                <a class="link" href="#contact">Contact</a>
+            </nav>
+            <button id="menu-burger-close">
+                <span class="material-icons">
+                    close
+                </span>
+            </button>
+        </div>
+
+        <button id="menu-burger-button">
+            <span class="material-icons">
+                menu
+            </span>
+        </button>
+    </header>
+
+    <section class="section-about" id="about">
+        <div class="container">
+            <h1>This is Oneday.</h1>
+            <p>Subtext is used to give detailed information about you, your service or whatever else.</p>
+            <input type="button" value="tell me more." onclick="showAboutPopup()">
+        </div>
+    </section>
+
+    <section class="section-product" id="product">
+        <div class="product">
+            <h2>Mes projets</h2>
+            <div class="gallery hidden">
+                <img src="image.jpg" alt="">
+                <img src="image.jpg" alt="">
+                <img src="image.jpg" alt="">
+                <img src="image.jpg" alt="">
+                <img src="image.jpg" alt="">
+                <img src="image.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-blog" id="blog">
+        <div class="container">
+            <article>
+                <h2>Titre de l'article</h2>
+                <p>Auteur : John Doe</p>
+                <p>Date de publication : 12 mars 2023</p>
+                <div>
+                    <p>Contenu de l'article...</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section-contact" id="contact">
+        <div class="contact-box hidden">
+            <h2>Me contacter</h2>
+            <form action="">
+                <input type="text" class="input-field" placeholder="Votre nom">
+                <input type="email" class="input-field" placeholder="Votre email">
+                <input type="text" class="input-field" placeholder="Objet">
+                <textarea type="text" class="input-field textarea-field" placeholder="Votre message"></textarea>
+                <button type="button" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="overlay" onclick="hideAboutPopup()"></div>
+    <div id="about-popup">
+        <span id="close" onclick="hideAboutPopup()">&times;</span>
+        <p>Merci d’avoir cliqué 😊 !</p>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+        function showAboutPopup() {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('about-popup').style.display = 'block';
+        }
+
+        function hideAboutPopup() {
+            document.getElementById('overlay').style.display = 'none';
+            document.getElementById('about-popup').style.display = 'none';
+        }
+    </script>
+
+</body>
+
+</html>

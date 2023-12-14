@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Container';
+    src: url('OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Button';
+    src: url('Roboto-Regular.ttf');
+}
+
+:root {
+    --background-one: #64B2CF;
+    --background-two: #9BC53D;
+    --background-tree: #C3423F;
+    --background-four: #FDE74C;
+    --text: white;
+    --textbutton: black;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Container';
+}
+
+p {
+    font-size: 25px;
+}
+
+h3 {
+    margin: 3rem;
+    font-size: 2rem;
+}
+
+* {
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    color: var(--text);
+}
+
+@media only screen and (max-width: 770px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
