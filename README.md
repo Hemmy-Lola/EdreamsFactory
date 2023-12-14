@@ -36,7 +36,7 @@ Ce repository renferme les exercices palpitants que j'ai accomplis durant mon al
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
-- De bien avoir xampp, mamp, lanp ou encore wamp (pour ma part mes exercices se trouvent dans dossier htdocs de xampp !) 
+- De bien avoir Xampp, Mamp, Lamp ou encore Wamp (pour ma part mes exercices se trouvent dans dossier htdocs de xampp !) 
 - Avoir installé Composer
 
 
