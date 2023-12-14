@@ -36,13 +36,8 @@ Ce repository renferme les exercices palpitants que j'ai accomplis durant mon al
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
--   ______
-  / ____/___  ____ ___  ____  ____  ________  _____
- / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
-/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
-\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
-                    /_/
 - De bien avoir xampp, mamp, lanp ou encore wamp (pour ma part mes exercices se trouvent dans dossier htdocs de xampp !) 
+- Avoir installé Composer
 
 
 Merci de prendre du temps pour observer mes différentes réalisations. J'espère que ces exercices reflèteront ma passion pour le dev,tout en vous montrant une part de mes compétences !
