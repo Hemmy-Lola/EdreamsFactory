@@ -1,6 +1,6 @@
 # Portfolio d'exercices FullSatck  🚀
 
-Ce repository renferme les exercices palpitants que j'ai accomplis durant mon alternance. Plongeons dans le monde du développement web avec PHP, le framework PHPUnit, HTML, CSS, et JavaScript.
+Ce repository renferme les exercices que j'ai accomplis durant les 2 derniers jours. Plongeons dans le monde du développement web avec PHP, le framework PHPUnit, HTML, CSS, et JavaScript.
 
 ## 📁 Structure du Repository
 
@@ -12,7 +12,7 @@ Ce repository renferme les exercices palpitants que j'ai accomplis durant mon al
 
 2. **Exercice 2 - Et si on faisait un peu de tri ? Avec PHP**
    - Dossier : `exercice_2`
-   - 📝 Description : J'ai ensuite enchainé sur le tri d'une liste en fonction de son nombre de caractères...mais aussi par ordre alphabéthique !
+   - 📝 Description : J'ai ensuite enchainé sur le tri d'une liste en fonction du nombre de caractères de chaque éléments de cette dernière...mais aussi par ordre alphabéthique !
 
 3. **Exercice 3 - Un nettoyage s'impose ! Avec PHP ET PHPUnit !**
    - Dossier : `exercice_3`
@@ -22,7 +22,7 @@ Ce repository renferme les exercices palpitants que j'ai accomplis durant mon al
 
 4. **Exercice 4 - One day... Avec HTML, CSS et JavaScript**
    - Dossier : `exercice_4`
-   - 📝 Description : Enfin pour ce dernière exercice, j'ai du tenté de recréer le portrait craché de la page "OneDay"...et plus encore !
+   - 📝 Description : Enfin pour ce dernier exercice, j'ai du tenté de recréer le portrait craché de la page "OneDay" avec un petit popup  !
 
 ## 💻 Technologies Utilisées
 
