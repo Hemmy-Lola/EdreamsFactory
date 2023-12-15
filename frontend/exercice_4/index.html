@@ -7,17 +7,22 @@
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Oneday</title>
 </head>
 
 <body>
     <header>
-        <h3>1day</h3>
+        <h3>ONEday...</h3>
         <nav id="nav">
             <a href="#about">About us</a>
             <a href="#product">Product</a>
             <a href="#blog">Blog</a>
             <a href="#contact">Contact</a>
+            <span class="material-symbols-outlined">
+                more_horiz
+            </span>
         </nav>
 
         <div id="menu-burger">
@@ -26,6 +31,7 @@
                 <a class="link" href="#product">Product</a>
                 <a class="link" href="#blog">Blog</a>
                 <a class="link" href="#contact">Contact</a>
+
             </nav>
             <button id="menu-burger-close">
                 <span class="material-icons">
@@ -64,27 +70,44 @@
     </section>
 
     <section class="section-blog" id="blog">
-        <div class="container">
+        <div class="container_blog">
             <article>
-                <h2>Titre de l'article</h2>
-                <p>Auteur : John Doe</p>
-                <p>Date de publication : 12 mars 2023</p>
+                <h2>Notre histoire</h2>
+
                 <div>
-                    <p>Contenu de l'article...</p>
+                    <p>"One Day" a commencé comme une idée passionnée entre amis partageant une vision commune :
+                        créer quelque chose de significatif en un jour. Cette équipe diversifiée de talents,
+                        comprenant des développeurs, des designers et des entrepreneurs,
+                        s'est réunie avec l'ambition de transformer chaque journée en une opportunité d'innovation.
+                        Leur première rencontre, un jour ordinaire, a donné naissance à une mini-entreprise pleine de
+                        créativité et de détermination.
+                        Chaque projet, chaque idée, chaque instant est considéré comme une chance unique de laisser une
+                        empreinte positive.
+                        "One Day" incarne l'esprit de saisir l'instant présent et de créer un impact significatif,
+                        prouvant que même un simple jour peut être le début d'une aventure extraordinaire.
+                    </p>
                 </div>
             </article>
         </div>
     </section>
 
     <section class="section-contact" id="contact">
-        <div class="contact-box hidden">
+        <div class="contact-box">
             <h2>Me contacter</h2>
-            <form action="">
-                <input type="text" class="input-field" placeholder="Votre nom">
-                <input type="email" class="input-field" placeholder="Votre email">
-                <input type="text" class="input-field" placeholder="Objet">
-                <textarea type="text" class="input-field textarea-field" placeholder="Votre message"></textarea>
-                <button type="button" class="btn">Envoyer</button>
+            <form action="#" method="post">
+                <label for="name">Votre nom</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Votre email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Objet</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">Envoyer</button>
             </form>
         </div>
     </section>

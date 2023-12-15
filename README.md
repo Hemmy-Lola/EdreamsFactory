@@ -16,13 +16,13 @@ Ce repository renferme les exercices palpitants que j'ai accomplis durant mon al
 
 3. **Exercice 3 - Un nettoyage s'impose ! Avec PHP ET PHPUnit !**
    - Dossier : `exercice_3`
-   - 📝 Description : Ici, nous devions à travers une liste de prénom faire en sorte de retirer les doublons... Fini les cinquantes "Hemmy" ! Et pour être sûr d'avoir utilisé la bonne manière de nettoyer je me suis servi de PHPUnit pour tester ma méthode !
+   - 📝 Description : Ici, nous devions à travers une liste de prénom faire en sorte de retirer les doublons... Fini les cinquante "Chrisline" ! Et pour être sûr d'avoir utilisé la bonne manière de nettoyer, je me suis servi de PHPUnit pour tester ma méthode !
 
 ### Côté Front-End
 
 4. **Exercice 4 - One day... Avec HTML, CSS et JavaScript**
    - Dossier : `exercice_4`
-   - 📝 Description : Enfin pour ce dernière exercice, j'ai du tenté de recréer le jumeau siamois de la page "OneDay"...et plus encore !
+   - 📝 Description : Enfin pour ce dernière exercice, j'ai du tenté de recréer le portrait craché de la page "OneDay"...et plus encore !
 
 ## 💻 Technologies Utilisées
 

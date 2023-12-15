@@ -8,6 +8,11 @@
     src: url('Roboto-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Logo';
+    src: url('HomemadeApple-Regular.ttf');
+}
+
 :root {
     --background-one: #64B2CF;
     --background-two: #9BC53D;
@@ -17,8 +22,12 @@
     --textbutton: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Container';
 }
 
@@ -29,6 +38,7 @@ p {
 h3 {
     margin: 3rem;
     font-size: 2rem;
+    font-family: "Logo";
 }
 
 * {
@@ -41,7 +51,7 @@ section {
     color: var(--text);
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 990px) {
     h1 {
         font-size: 35px;
     }

@@ -1,55 +1,4 @@
-.container {
-    position: relative;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Container';
-    max-width: 500px;
-}
-
-.container h1 {
-    margin-bottom: 40px;
-}
-
-.container p {
-    margin-bottom: 65px;
-}
-
-#menu-burger-button {
-    display: none;
-}
-
-#menu-burger {
-    display: none;
-}
-
-@media only screen and (max-width: 770px) {
-
-    #menu-burger-button {
-        display: block;
-    }
-
-    #menu-burger {
-        display: none;
-        position: fixed;
-        top: 0px;
-        left: 0;
-        height: 100vh;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
-        background-color: red;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        transition: 1s;
-    }
-
-    #nav {
-        display: none;
-    }
-}
+/* Les couleurs des différentes sections */
 
 .section-about {
     background-color: var(--background-one);
@@ -67,11 +16,12 @@
     background-color: var(--background-four);
 }
 
+/* Ma navbar */
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-transform: uppercase;
     height: 80px;
     padding: 1rem;
     color: var(--text);
@@ -81,6 +31,16 @@ header {
     z-index: 1000;
     transition: background-color 0.5s ease;
     font-family: 'Button';
+}
+
+h3 {
+    margin: 0;
+    margin-left: 100px;
+}
+
+nav {
+    margin-right: 150px;
+    text-transform: uppercase;
 }
 
 nav a {
@@ -96,6 +56,8 @@ nav a:hover {
     color: var(--secondaryColor);
 }
 
+/* Ma section about */
+
 input[type="button"] {
     height: 40px;
     width: 150px;
@@ -108,6 +70,42 @@ input[type="button"] {
     font-size: 10px;
     font-family: 'Button';
 }
+
+.container {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Container';
+    max-width: 500px;
+}
+
+.container h1 {
+    margin-bottom: 30px;
+}
+
+.container p {
+    margin-bottom: 65px;
+}
+
+.container_blog h2 {
+    margin-bottom: 25px;
+}
+
+/* La section blog */
+
+.container_blog {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Container';
+    max-width: 1000px;
+}
+
+/* Ma section de projet */
 
 .product {
     padding-top: 70px;
@@ -136,42 +134,64 @@ input[type="button"] {
     transform: scale(1.1);
 }
 
+/* Ma section de contact */
+
+.section-contact {
+    font-family: "container";
+}
+
+.contact-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.section-contact h2 {
+    color: var(--text);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Mon formulaire */
+
 form {
-    margin: 45px;
+    display: grid;
+    gap: 20px;
 }
 
-.input-field {
-    width: 200px;
-    height: 50px;
-    margin-top: 20px;
-    padding-right: 20px;
-    border: 1px solid white;
-    border-radius: 14px;
-    outline: none;
-    color: #fff;
-    font-family: 'container';
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
 }
 
-.textarea-field {
-    height: 200px;
-    padding-top: 10px;
-}
-
-.btn {
-    border-radius: 20px;
-    color: var(--text-color);
-    margin-top: 18px;
+input,
+textarea {
+    width: 100%;
     padding: 10px;
-    background-color: #f9eae1;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    font-family: 'container';
+    border: 1px solid #ccc;
+    border-radius: 15px;
 }
 
-.text {
-    position: absolute;
+.section-contact button {
+    background-color: white;
+    color: var(--textbutton);
+    padding: 10px 5px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "container";
+    width: 150px;
 }
+
+button:hover {
+    background-color: #8f8f8f;
+}
+
+/* Mon popup */
 
 #about-popup {
     display: none;
@@ -207,4 +227,103 @@ form {
     top: 10px;
     right: 10px;
     cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    border: #fff;
+    color: white;
+}
+
+#menu-burger-button {
+    display: none;
+}
+
+#menu-burger {
+    display: none;
+}
+
+.menu-burger-close {
+    background: none;
+}
+
+@media only screen and (max-width: 1325px) {
+    .gallery img {
+        width: 300px !important;
+        height: 120px !important;
+        border-radius: 10px;
+        padding: 5px;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+
+    .gallery img:hover {
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+
+    #menu-burger-button {
+        display: block;
+        margin-right: 50px;
+    }
+
+    #menu-burger {
+        display: none;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: gray;
+        box-shadow: 0 2px 5px rgba(42, 42, 42, 0.1);
+        transition: 1s;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    .gallery img {
+        width: 240px !important;
+        height: 100px !important;
+        border-radius: 10px;
+        padding: 5px;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+
+    .gallery img:hover {
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+
+    .container_blog p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .gallery img {
+        width: 240px !important;
+        height: 100px !important;
+        border-radius: 10px;
+        padding: 5px;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+
+    .gallery img:hover {
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
 }
